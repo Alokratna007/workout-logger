@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LogFit</title>
+</head>
+
+<body>
+    <h1>LogFit</h1>
+    <p>Log your fitness journey in the better way!</p>
+
+    <fieldset>
+        <legend>User Details</legend>
+
+        <label for="user_name">Name: </label>
+        <input id="user_name" type="text">
+
+        <label for="age">Age: </label>
+        <input id="age" type="number">
+
+        <label for="gender">Gender: </label>
+
+        <input id="female" type="radio" name="user_gender" value="female">
+        <label for="female">Female</label>
+
+        <input id="male" type="radio" name="user_gender" value="male">
+        <label for="male">Male</label>
+    </fieldset>
+
+    
+    <fieldset>
+        <legend>Workout Log</legend>
+
+        <label for="workout_date">Date: </label>
+        <input id="workout_date" type="date">
+    
+        <label for="muscles">Muscle: </label>
+        <select name="muscles" id="muscle_group">
+            <option value="biceps">Biceps</option>
+            <option value="triceps">Triceps</option>
+            <option value="shoulder">Shoulder</option>
+            <option value="chest">Chest</option>
+            <option value="back">Back</option>
+            <option value="legs">Legs</option>
+            <option value="core">Core/Abs</option>
+        </select>
+
+        <button>Add exercise</button>
+    </fieldset>
+
+</body>
+
+</html>
